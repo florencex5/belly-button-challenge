@@ -95,13 +95,13 @@ function bubble(sample) {
             xaxis: {title: "OTU ID"}
         };
 
-        // Use Plotly to plot the data in a bar chart
+        // Use Plotly to plot the data in a bubble chart
         Plotly.newPlot("bubble", traceData,layout);
 
     });
 };
 
-// DEMOGRAPHIC GRAPH
+// DEMOGRAPHIC PANEL
 function demographic(sample) {
 
     // Fetch the JSON data and console log it
@@ -164,7 +164,7 @@ function gauge(sample) {
                },
     }];
 
-    // Use Plotly to plot the data in a bar chart
+    // Use Plotly to plot the data in a gauge graph
     Plotly.newPlot("gauge", traceData);
 
     });
