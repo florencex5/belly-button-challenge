@@ -1,4 +1,4 @@
-# belly-button-challenge
+# Belly-Button-Challenge
 
 ## Task
 * Build an interactive dashboard to explore the Belly Button Diversity Dataset, which catalogs the microbes that colonize human navels
